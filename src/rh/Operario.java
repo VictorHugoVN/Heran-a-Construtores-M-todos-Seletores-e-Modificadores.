@@ -5,6 +5,10 @@ public class Operario extends Empregado{
 	private double valorProducao;
 	private double comissao;
 	
+	public Operario() {
+		
+	}
+	
 	
 	public Operario(String nome, String endereco, String telefone, int codigoSetor, double salarioBase, int imposto, double valorProducao, double comissao) {
 		super(nome, endereco, telefone, codigoSetor, salarioBase, imposto);

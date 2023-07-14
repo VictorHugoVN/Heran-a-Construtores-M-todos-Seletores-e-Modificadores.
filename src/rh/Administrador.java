@@ -4,6 +4,10 @@ public class Administrador extends Empregado{
 	
 	private double ajudaCusto;
 	
+	public Administrador() {
+		
+	}
+	
 	public Administrador(String nome, String endereco, String telefone, int codigoSetor, double salarioBase, int imposto, double ajudaCusto) {
 		super(nome, endereco, telefone, codigoSetor, salarioBase, imposto);
 		this.setAjudaCusto(ajudaCusto);

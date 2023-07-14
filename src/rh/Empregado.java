@@ -6,6 +6,10 @@ public class Empregado extends Pessoa{
 	private double salarioBase;
 	private int imposto;
 	
+	public Empregado() {
+		
+	}
+	
 	public Empregado(String nome, String endereco, String telefone, int codigoSetor, double salarioBase, int imposto) {
 		super(nome, endereco, telefone);
 		this.setCodigoSetor(codigoSetor);
